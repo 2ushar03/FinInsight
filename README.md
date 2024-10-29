@@ -18,7 +18,7 @@ FinInsight is an advanced research tool designed to assist banking professionals
 - **LangChain**
 - **Hugging Face**
 - **Faiss**
-- **React**
+- **Streamlit**
 
 ### Getting Started
 
