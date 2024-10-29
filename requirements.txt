@@ -1,0 +1,12 @@
+streamlit
+langchain
+unstructured
+langchain_community
+langchain-huggingface
+transformers
+sentencepiece
+torch
+faiss-cpu  # or faiss-gpu if you are using a GPU
+python-dotenv
+requests
+langchain-groq
