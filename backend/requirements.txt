@@ -1,0 +1,12 @@
+Flask
+flask-cors
+langchain
+langchain-huggingface
+langchain_community
+langchain-groq
+transformers
+sentencepiece
+torch
+faiss-cpu
+python-dotenv
+requests
