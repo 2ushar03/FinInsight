@@ -32,7 +32,7 @@ function App() {
         setProcessingStatus('Gathering Your Data, Hang Tight...');
 
         try {
-            const response = await axios.post('http://localhost:5000/process-urls', { urls: validUrls });
+            const response = await axios.post('https://fininsight-backend.onrender.com/process-urls', { urls: validUrls });
             setIsProcessed(true);
             setProcessingStatus('URLs processed successfully!');
         } catch (error) {
