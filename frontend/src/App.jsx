@@ -60,7 +60,7 @@ function App() {
         setIsQuerying(true);
 
         try {
-            const response = await axios.post('http://localhost:5000/ask', { question: query });
+            const response = await axios.post('https://fininsight-backend.onrender.com/ask', { question: query });
             setAnswer(response.data.answer);
             setSources(response.data.sources || []);
         } catch (error) {
