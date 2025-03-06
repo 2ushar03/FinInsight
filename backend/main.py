@@ -13,7 +13,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 app = Flask(__name__)
-CORS(app, origins=["https://fininsight-backend.onrender.com"])
+CORS(app, origins=["https://fin-insight.vercel.app"])
 vector_store = None
 
 @app.route('/')
