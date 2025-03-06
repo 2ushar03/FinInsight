@@ -16,6 +16,10 @@ app = Flask(__name__)
 CORS(app)
 vector_store = None
 
+@app.route('/')
+def home():
+    return "Hello, World!"
+
 @app.route('/process-urls', methods=['POST'])
 def process_urls():
     global vector_store
